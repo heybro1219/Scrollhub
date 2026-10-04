@@ -160,6 +160,21 @@ export default function Home() {
         className="mx-auto w-full max-w-5xl flex-1 scroll-mt-8 px-6 sm:px-12"
       >
         <div className="lg:flex lg:items-start lg:gap-10">
+          <aside className="mb-6 border-b border-black/5 pb-6 lg:order-2 lg:mb-0 lg:w-52 lg:shrink-0 lg:border-b-0 lg:pb-0 lg:pl-0 lg:sticky lg:top-6">
+            <p className="mb-3 text-xs font-semibold uppercase tracking-wider text-black/35">
+              Categories
+            </p>
+            <CategoryNav
+              categories={visibleCategories}
+              activeCategory={activeCategory}
+              onSelectCategory={handleSelectCategory}
+              activeSubcategory={activeSubcategory}
+              onSelectSubcategory={setActiveSubcategory}
+              favoritesCount={favoritesCount}
+              totalSites={visibleTotalSites}
+            />
+          </aside>
+
           <div className="min-w-0 flex-1 lg:order-1">
         <SafetyBanner onSelectCategory={handleSelectCategory} />
 
@@ -376,21 +391,6 @@ export default function Home() {
           )}
         </section>
           </div>
-
-          <aside className="mt-8 border-t border-black/5 pt-6 lg:order-2 lg:mt-0 lg:w-52 lg:shrink-0 lg:border-t-0 lg:pt-0 lg:sticky lg:top-6">
-            <p className="mb-3 text-xs font-semibold uppercase tracking-wider text-black/35">
-              Categories
-            </p>
-            <CategoryNav
-              categories={visibleCategories}
-              activeCategory={activeCategory}
-              onSelectCategory={handleSelectCategory}
-              activeSubcategory={activeSubcategory}
-              onSelectSubcategory={setActiveSubcategory}
-              favoritesCount={favoritesCount}
-              totalSites={visibleTotalSites}
-            />
-          </aside>
         </div>
       </main>
 

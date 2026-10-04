@@ -31,10 +31,16 @@ export function CategoryNav({
 
   const tabClass = (active: boolean) =>
     cn(
-      "inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-sm font-semibold transition-all duration-200 hover:scale-[1.02] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black/30 active:scale-[0.98] lg:justify-start",
+      "inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-sm font-semibold transition-all duration-200 hover:scale-[1.02] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black/30 active:scale-[0.98] lg:justify-between lg:rounded-xl lg:py-2 lg:hover:scale-100",
       active
         ? "border-black bg-black text-white shadow-sm"
         : "border-black/5 bg-black/[0.03] text-black/60 hover:bg-black/[0.06] hover:text-black",
+    );
+
+  const countBadge = (active: boolean) =>
+    cn(
+      "rounded-full px-1.5 py-0.5 text-[10px] font-bold",
+      active ? "bg-white/15 text-white/70" : "bg-black/5 text-black/35",
     );
 
   return (
@@ -46,9 +52,11 @@ export function CategoryNav({
           className={tabClass(activeCategory === "all")}
           aria-current={activeCategory === "all" ? "page" : undefined}
         >
-          <Grid2X2 className="h-3.5 w-3.5" />
-          All sites
-          <span className={cn("text-[10px]", activeCategory === "all" ? "text-white/55" : "text-black/35")}>
+          <span className="flex items-center gap-2">
+            <Grid2X2 className="h-3.5 w-3.5" />
+            All sites
+          </span>
+          <span className={countBadge(activeCategory === "all")}>
             {totalSites}
           </span>
         </button>
@@ -64,11 +72,11 @@ export function CategoryNav({
               className={tabClass(active)}
               aria-current={active ? "page" : undefined}
             >
-              <span aria-hidden="true">{category.icon}</span>
-              {category.name}
-              <span className={cn("text-[10px]", active ? "text-white/55" : "text-black/35")}>
-                {category.count}
+              <span className="flex items-center gap-2">
+                <span aria-hidden="true">{category.icon}</span>
+                {category.name}
               </span>
+              <span className={countBadge(active)}>{category.count}</span>
             </button>
           );
         })}
@@ -79,19 +87,16 @@ export function CategoryNav({
           className={tabClass(activeCategory === "favorites")}
           aria-current={activeCategory === "favorites" ? "page" : undefined}
         >
-          <Heart
-            className={cn(
-              "h-3.5 w-3.5",
-              favoritesCount > 0 && activeCategory === "favorites" && "fill-current",
-            )}
-          />
-          Saved
-          <span
-            className={cn(
-              "text-[10px]",
-              activeCategory === "favorites" ? "text-white/55" : "text-black/35",
-            )}
-          >
+          <span className="flex items-center gap-2">
+            <Heart
+              className={cn(
+                "h-3.5 w-3.5",
+                favoritesCount > 0 && activeCategory === "favorites" && "fill-current",
+              )}
+            />
+            Saved
+          </span>
+          <span className={countBadge(activeCategory === "favorites")}>
             {favoritesCount}
           </span>
         </button>
