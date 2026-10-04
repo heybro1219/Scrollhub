@@ -36,7 +36,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 "repeating-linear-gradient(45deg, rgba(0,0,0,0.07) 0 1px, transparent 1px 6px)",
             }}
           />
-          <div className="absolute inset-y-0 left-1/2 border-l border-dashed border-black/10" />
         </div>
         {children}
       </body>

@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useState, type MouseEvent } from "react";
 import { Check, Copy, ExternalLink, Heart } from "lucide-react";
 import type { MediaSite } from "@/data/mediaData";
@@ -38,7 +37,7 @@ export function SiteListItem({
       <div className="flex min-w-0 flex-1 items-center gap-3">
         <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-black/5 bg-black/[0.03] p-1.5">
           {!imageError ? (
-            <Image
+            <img
               src={`https://www.google.com/s2/favicons?domain=${site.domain}&sz=32`}
               alt=""
               width={16}
