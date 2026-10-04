@@ -148,7 +148,7 @@ export default function Home() {
 
       <main
         id="content-section"
-        className="mx-auto w-full max-w-5xl flex-1 scroll-mt-8 px-6 sm:px-12"
+        className="mx-auto w-full max-w-3xl flex-1 scroll-mt-8 px-6 sm:px-12"
       >
         <CategoryNav
           categories={visibleCategories}
@@ -182,13 +182,13 @@ export default function Home() {
               </span>
             </div>
 
-            <div className="mt-5 grid gap-2.5 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="mt-5 grid gap-2.5 sm:grid-cols-2">
               {visibleCategories.map((category) => (
                 <button
                   key={category.slug}
                   type="button"
                   onClick={() => handleSelectCategory(category.slug)}
-                  className="group flex items-center gap-3 rounded-2xl border border-black/5 bg-white px-4 py-3.5 text-left shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:border-indigo-200 hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500/30 active:scale-[0.99]"
+                  className="group flex items-center gap-3 rounded-full border border-black/5 bg-black/[0.03] px-4 py-3 text-left transition-all duration-200 hover:scale-[1.01] hover:bg-black/[0.06] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black/30 active:scale-[0.99]"
                 >
                   <span className="text-base" aria-hidden="true">
                     {category.icon}
@@ -231,7 +231,7 @@ export default function Home() {
             </div>
 
             <div className="flex flex-wrap items-center gap-2">
-              <label className="flex items-center gap-2 rounded-full border border-black/5 bg-white px-3 py-2 text-xs text-black/45 shadow-sm">
+              <label className="flex items-center gap-2 rounded-full border border-black/5 bg-black/[0.03] px-3 py-2 text-xs text-black/45">
                 <ArrowUpDown className="h-3.5 w-3.5" />
                 <span className="sr-only">Sort sites</span>
                 <select
@@ -261,8 +261,8 @@ export default function Home() {
                 className={cn(
                   "flex items-center gap-1.5 rounded-full border px-3 py-2 text-xs font-semibold transition-all duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black/30",
                   showNsfw
-                    ? "border-indigo-500 bg-indigo-600 text-white"
-                    : "border-black/5 bg-white text-black/55 shadow-sm hover:bg-indigo-50 hover:text-indigo-700",
+                    ? "border-black bg-black text-white"
+                    : "border-black/5 bg-black/[0.03] text-black/55 hover:bg-black/[0.06] hover:text-black",
                 )}
                 aria-pressed={showNsfw}
               >
@@ -271,7 +271,7 @@ export default function Home() {
               </button>
 
               <div
-                className="flex items-center rounded-full border border-black/5 bg-white p-1 shadow-sm"
+                className="flex items-center rounded-full border border-black/5 bg-black/[0.03] p-1"
                 role="group"
                 aria-label="Choose site layout"
               >
@@ -281,8 +281,8 @@ export default function Home() {
                   className={cn(
                     "flex h-7 w-7 items-center justify-center rounded-full transition-colors focus-visible:outline-2 focus-visible:outline-black/30",
                     viewMode === "grid"
-                      ? "bg-indigo-600 text-white"
-                      : "text-black/40 hover:text-indigo-700",
+                      ? "bg-black text-white"
+                      : "text-black/40 hover:text-black",
                   )}
                   aria-label="Grid view"
                   aria-pressed={viewMode === "grid"}
@@ -295,8 +295,8 @@ export default function Home() {
                   className={cn(
                     "flex h-7 w-7 items-center justify-center rounded-full transition-colors focus-visible:outline-2 focus-visible:outline-black/30",
                     viewMode === "list"
-                      ? "bg-indigo-600 text-white"
-                      : "text-black/40 hover:text-indigo-700",
+                      ? "bg-black text-white"
+                      : "text-black/40 hover:text-black",
                   )}
                   aria-label="List view"
                   aria-pressed={viewMode === "list"}
@@ -309,7 +309,7 @@ export default function Home() {
 
           {filteredSites.length > 0 ? (
             viewMode === "grid" ? (
-              <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              <div className="mt-6 grid gap-3 sm:grid-cols-2">
                 {filteredSites.map((site) => (
                   <SiteCard
                     key={site.id}
