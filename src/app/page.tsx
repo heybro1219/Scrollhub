@@ -157,7 +157,7 @@ export default function Home() {
 
       <main
         id="content-section"
-        className="mx-auto w-full max-w-5xl flex-1 scroll-mt-8 px-6 sm:px-12"
+        className="mx-auto w-full max-w-5xl flex-1 border-x border-black/5 scroll-mt-8 px-6 sm:px-12"
       >
         <div className="lg:flex lg:items-start lg:gap-10">
           <aside className="mb-6 border-b border-black/5 pb-6 lg:order-2 lg:mb-0 lg:w-52 lg:shrink-0 lg:border-b-0 lg:pb-0 lg:pl-0 lg:sticky lg:top-6">

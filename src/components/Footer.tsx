@@ -33,8 +33,8 @@ const communityLinks = [
 
 export function Footer() {
   return (
-    <footer className="mt-20 border-t border-black/5 bg-white">
-      <div className="mx-auto max-w-3xl px-6 py-10 sm:px-12">
+    <footer className="mt-20 border-t border-dashed border-black/10 bg-white">
+      <div className="mx-auto max-w-5xl border-x border-black/5 px-6 py-10 sm:px-12">
         <div className="flex flex-col gap-7 sm:flex-row sm:items-start sm:justify-between">
           <div>
             <div className="flex items-center gap-2">
