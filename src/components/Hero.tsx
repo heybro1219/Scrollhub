@@ -54,7 +54,7 @@ export function Hero({
 
   return (
     <section className="bg-white">
-      <div className="mx-auto max-w-3xl px-6 pt-12 pb-20 sm:px-12 sm:pt-24 sm:pb-32">
+      <div className="mx-auto max-w-3xl px-6 pt-12 pb-10 sm:px-12 sm:pt-24 sm:pb-16">
         <button
           type="button"
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
