@@ -11,7 +11,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 
 const variantClasses: Record<ButtonVariant, string> = {
   default:
-    "border-black bg-black text-white shadow-sm hover:bg-black/80 hover:shadow-md",
+    "border-indigo-600 bg-gradient-to-r from-indigo-600 to-indigo-500 text-white shadow-sm shadow-indigo-500/25 hover:shadow-md hover:shadow-indigo-500/30",
   outline:
     "border-black/5 bg-black/[0.03] text-black hover:border-black/10 hover:bg-black/[0.06]",
   ghost: "text-black/60 hover:bg-black/[0.05] hover:text-black",

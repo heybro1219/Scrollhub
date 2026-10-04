@@ -34,7 +34,7 @@ export function SiteCard({
   };
 
   return (
-    <article className="group flex flex-col rounded-2xl border border-black/5 bg-white p-4 transition-colors hover:bg-black/[0.02]">
+    <article className="group flex flex-col rounded-2xl border border-black/5 bg-white p-4 shadow-sm transition-all duration-200 hover:-translate-y-1 hover:border-indigo-200 hover:shadow-lg hover:shadow-indigo-100">
       <div className="flex items-start justify-between gap-3">
         <div className="flex min-w-0 items-center gap-3">
           <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-black/5 bg-black/[0.03] p-1.5">
@@ -70,8 +70,8 @@ export function SiteCard({
           className={cn(
             "flex h-8 w-8 shrink-0 items-center justify-center rounded-full border transition-all duration-200 hover:scale-[1.03] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black/30 active:scale-[0.97]",
             isFavorite
-              ? "border-black bg-black text-white"
-              : "border-black/5 bg-black/[0.03] text-black/45 hover:bg-black/[0.06] hover:text-black",
+              ? "border-indigo-500 bg-indigo-600 text-white"
+              : "border-black/5 bg-black/[0.03] text-black/45 hover:border-indigo-200 hover:bg-indigo-50 hover:text-indigo-600",
           )}
           aria-label={isFavorite ? `Remove ${site.name} from saved sites` : `Save ${site.name}`}
           title={isFavorite ? "Remove from saved" : "Save site"}
@@ -109,7 +109,7 @@ export function SiteCard({
           href={site.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex h-9 flex-1 items-center justify-center gap-2 rounded-full bg-black px-4 text-xs font-bold text-white shadow-sm transition-all duration-200 hover:scale-[1.01] hover:bg-black/80 hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black/30 active:scale-[0.98]"
+          className="inline-flex h-9 flex-1 items-center justify-center gap-2 rounded-full bg-gradient-to-r from-indigo-600 to-indigo-500 px-4 text-xs font-bold text-white shadow-sm shadow-indigo-500/25 transition-all duration-200 hover:scale-[1.01] hover:shadow-md hover:shadow-indigo-500/30 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500/40 active:scale-[0.98]"
         >
           Open site
           <ExternalLink className="h-3.5 w-3.5" />

@@ -14,7 +14,7 @@ export function SafetyBanner({ onSelectCategory }: SafetyBannerProps) {
 
   return (
     <aside
-      className="mt-6 flex items-start gap-3 rounded-2xl border border-black/5 bg-black/[0.02] p-4"
+      className="mt-6 flex items-start gap-3 rounded-2xl border border-amber-200/70 bg-amber-50 p-4"
       aria-label="Safety note"
     >
       <ShieldCheck className="mt-0.5 h-4 w-4 shrink-0 text-black/45" />

@@ -34,7 +34,7 @@ export function SiteListItem({
   };
 
   return (
-    <article className="group flex items-center justify-between gap-3 rounded-full border border-black/5 bg-white py-2 pl-2 pr-2.5 transition-colors hover:bg-black/[0.02] sm:gap-4 sm:py-2.5 sm:pl-3 sm:pr-3">
+    <article className="group flex items-center justify-between gap-3 rounded-2xl border border-black/5 bg-white py-2 pl-2 pr-2.5 shadow-sm transition-all duration-200 hover:border-indigo-200 hover:shadow-md sm:gap-4 sm:py-2.5 sm:pl-3 sm:pr-3">
       <div className="flex min-w-0 flex-1 items-center gap-3">
         <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-black/5 bg-black/[0.03] p-1.5">
           {!imageError ? (
@@ -98,8 +98,8 @@ export function SiteListItem({
           className={cn(
             "flex h-8 w-8 items-center justify-center rounded-full transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black/30",
             isFavorite
-              ? "bg-black text-white"
-              : "text-black/40 hover:bg-black/[0.05] hover:text-black",
+              ? "bg-indigo-600 text-white"
+              : "text-black/40 hover:bg-indigo-50 hover:text-indigo-600",
           )}
           aria-label={isFavorite ? `Remove ${site.name} from saved sites` : `Save ${site.name}`}
           title={isFavorite ? "Remove from saved" : "Save site"}
@@ -111,7 +111,7 @@ export function SiteListItem({
           href={site.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex h-8 items-center gap-1.5 rounded-full bg-black px-3 text-xs font-bold text-white shadow-sm transition-all duration-200 hover:bg-black/80 hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black/30"
+          className="inline-flex h-8 items-center gap-1.5 rounded-full bg-gradient-to-r from-indigo-600 to-indigo-500 px-3 text-xs font-bold text-white shadow-sm shadow-indigo-500/25 transition-all duration-200 hover:shadow-md hover:shadow-indigo-500/30 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500/40"
         >
           <span className="hidden sm:inline">Visit</span>
           <ExternalLink className="h-3.5 w-3.5" />

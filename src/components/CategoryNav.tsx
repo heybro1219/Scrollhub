@@ -113,8 +113,8 @@ export function CategoryNav({
                 className={cn(
                   "rounded-full px-3 py-1.5 text-xs font-semibold transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black/30",
                   active
-                    ? "bg-black text-white"
-                    : "bg-black/[0.03] text-black/55 hover:bg-black/[0.06] hover:text-black",
+                    ? "bg-indigo-600 text-white"
+                    : "bg-white text-black/55 shadow-sm hover:bg-indigo-50 hover:text-indigo-700",
                 )}
                 aria-pressed={active}
               >
