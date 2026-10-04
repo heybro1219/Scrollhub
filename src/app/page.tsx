@@ -13,6 +13,15 @@ import {
 import { ALL_MEDIA_SITES, CATEGORIES } from "@/data/mediaData";
 import { useFavorites } from "@/hooks/useFavorites";
 import { Button } from "@/components/ui/button";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuLabel,
+  DropdownMenuRadioGroup,
+  DropdownMenuRadioItem,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 import { CategoryNav } from "@/components/CategoryNav";
 import { Footer } from "@/components/Footer";
 import { Hero } from "@/components/Hero";
@@ -231,22 +240,40 @@ export default function Home() {
             </div>
 
             <div className="flex flex-wrap items-center gap-2">
-              <label className="flex items-center gap-2 rounded-full border border-black/5 bg-black/[0.03] px-3 py-2 text-xs text-black/45">
-                <ArrowUpDown className="h-3.5 w-3.5" />
-                <span className="sr-only">Sort sites</span>
-                <select
-                  value={sortBy}
-                  onChange={(event) =>
-                    setSortBy(event.target.value as SortOption)
-                  }
-                  className="bg-transparent font-semibold text-black/70 outline-none"
-                  aria-label="Sort sites"
-                >
-                  <option value="featured">Featured first</option>
-                  <option value="popular">Most popular</option>
-                  <option value="alpha">A–Z</option>
-                </select>
-              </label>
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <button
+                    type="button"
+                    aria-label="Sort sites"
+                    className="flex items-center gap-2 rounded-full border border-black/5 bg-black/[0.03] px-3 py-2 text-xs text-black/45 transition-colors hover:bg-black/[0.06] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black/30"
+                  >
+                    <ArrowUpDown className="h-3.5 w-3.5" />
+                    <span className="font-semibold text-black/70">
+                      {sortBy === "featured"
+                        ? "Featured first"
+                        : sortBy === "popular"
+                          ? "Most popular"
+                          : "A–Z"}
+                    </span>
+                  </button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="end">
+                  <DropdownMenuLabel>Sort sites</DropdownMenuLabel>
+                  <DropdownMenuSeparator />
+                  <DropdownMenuRadioGroup
+                    value={sortBy}
+                    onValueChange={(value) => setSortBy(value as SortOption)}
+                  >
+                    <DropdownMenuRadioItem value="featured">
+                      Featured first
+                    </DropdownMenuRadioItem>
+                    <DropdownMenuRadioItem value="popular">
+                      Most popular
+                    </DropdownMenuRadioItem>
+                    <DropdownMenuRadioItem value="alpha">A–Z</DropdownMenuRadioItem>
+                  </DropdownMenuRadioGroup>
+                </DropdownMenuContent>
+              </DropdownMenu>
 
               <button
                 type="button"
