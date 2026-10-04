@@ -92,7 +92,7 @@ export function Hero({
             </div>
 
             <a
-              href="https://github.com/rudranboitei/ScrollHub"
+              href="https://github.com/heybro1219/Scrollhub"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="ScrollHub on GitHub"

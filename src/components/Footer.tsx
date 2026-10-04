@@ -16,12 +16,12 @@ function GithubIcon({ className = "h-4 w-4" }: { className?: string }) {
 const communityLinks = [
   {
     label: "GitHub",
-    href: "https://github.com/rudranboitei/ScrollHub",
+    href: "https://github.com/heybro1219/Scrollhub",
     icon: GithubIcon,
   },
   {
     label: "Reddit",
-    href: "https://www.reddit.com/user/ScrollHub",
+    href: "https://www.reddit.com/user/heybro99",
     icon: ArrowUpRight,
   },
   {
