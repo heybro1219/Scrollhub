@@ -6,7 +6,7 @@
       "slug": "movies-tv",
       "icon": "🎬",
       "description": "Streaming sites for movies and TV shows, watch new releases, popular series, and classic titles.",
-      "count": 42,
+      "count": 65,
       "subcategories": [
         "All"
       ]
@@ -17,7 +17,7 @@
       "slug": "anime",
       "icon": "🍥",
       "description": "Anime streaming and download sites featuring subbed and dubbed series, movies, and ongoing seasons.",
-      "count": 18,
+      "count": 34,
       "subcategories": [
         "All"
       ]
@@ -28,7 +28,7 @@
       "slug": "manga",
       "icon": "📖",
       "description": "Manga reading sites with regularly updated chapters across all major genres.",
-      "count": 10,
+      "count": 16,
       "subcategories": [
         "All"
       ]
@@ -39,7 +39,7 @@
       "slug": "live-sports",
       "icon": "⚽",
       "description": "Live sports streaming sites covering football, basketball, MMA, boxing, and more.",
-      "count": 19,
+      "count": 23,
       "subcategories": [
         "All"
       ]
@@ -50,7 +50,7 @@
       "slug": "live-tv",
       "icon": "📺",
       "description": "Live TV streaming sites offering news, entertainment, and international channels.",
-      "count": 8,
+      "count": 11,
       "subcategories": [
         "All"
       ]
@@ -122,7 +122,7 @@
       "slug": "asian-drama",
       "icon": "🎭",
       "description": "Websites for watching and streaming Asian TV dramas and films online.",
-      "count": 8,
+      "count": 11,
       "subcategories": [
         "All"
       ]
@@ -2850,6 +2850,909 @@
       ],
       "featured": false,
       "popularity": 85
+    },
+    {
+      "id": "movies-tv-43",
+      "name": "CINEZO",
+      "url": "https://cinezo.net/",
+      "domain": "cinezo.net",
+      "category": "movies-tv",
+      "categoryName": "Movies & TV Shows",
+      "categoryIcon": "🎬",
+      "subcategory": "All",
+      "tags": [
+        "Movies",
+        "TV Shows",
+        "Streaming"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "movies-tv-44",
+      "name": "FlixHub",
+      "url": "https://flixhub.studio/",
+      "domain": "flixhub.studio",
+      "category": "movies-tv",
+      "categoryName": "Movies & TV Shows",
+      "categoryIcon": "🎬",
+      "subcategory": "All",
+      "tags": [
+        "Movies",
+        "TV Shows",
+        "Streaming"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "movies-tv-45",
+      "name": "THUGTV",
+      "url": "https://thugtv.online/",
+      "domain": "thugtv.online",
+      "category": "movies-tv",
+      "categoryName": "Movies & TV Shows",
+      "categoryIcon": "🎬",
+      "subcategory": "All",
+      "tags": [
+        "Movies",
+        "TV Shows",
+        "Streaming"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "movies-tv-46",
+      "name": "1TUBE",
+      "url": "https://1tube.org/",
+      "domain": "1tube.org",
+      "category": "movies-tv",
+      "categoryName": "Movies & TV Shows",
+      "categoryIcon": "🎬",
+      "subcategory": "All",
+      "tags": [
+        "Movies",
+        "TV Shows",
+        "Streaming"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "movies-tv-47",
+      "name": "RED FLIX",
+      "url": "https://redflix.club/",
+      "domain": "redflix.club",
+      "category": "movies-tv",
+      "categoryName": "Movies & TV Shows",
+      "categoryIcon": "🎬",
+      "subcategory": "All",
+      "tags": [
+        "Movies",
+        "TV Shows",
+        "Streaming"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "movies-tv-48",
+      "name": "1 Show",
+      "url": "https://1shows.org/",
+      "domain": "1shows.org",
+      "category": "movies-tv",
+      "categoryName": "Movies & TV Shows",
+      "categoryIcon": "🎬",
+      "subcategory": "All",
+      "tags": [
+        "Movies",
+        "TV Shows",
+        "Streaming"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "movies-tv-49",
+      "name": "1FLEX",
+      "url": "https://1flex.org/",
+      "domain": "1flex.org",
+      "category": "movies-tv",
+      "categoryName": "Movies & TV Shows",
+      "categoryIcon": "🎬",
+      "subcategory": "All",
+      "tags": [
+        "Movies",
+        "TV Shows",
+        "Streaming"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "movies-tv-50",
+      "name": "NIPPLEFLIX",
+      "url": "https://nippleflix.org/",
+      "domain": "nippleflix.org",
+      "category": "movies-tv",
+      "categoryName": "Movies & TV Shows",
+      "categoryIcon": "🎬",
+      "subcategory": "All",
+      "tags": [
+        "Movies",
+        "TV Shows",
+        "Streaming"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "movies-tv-51",
+      "name": "PANTYFLIX",
+      "url": "https://pantyflix.org/",
+      "domain": "pantyflix.org",
+      "category": "movies-tv",
+      "categoryName": "Movies & TV Shows",
+      "categoryIcon": "🎬",
+      "subcategory": "All",
+      "tags": [
+        "Movies",
+        "TV Shows",
+        "Streaming"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "movies-tv-52",
+      "name": "YOUSHOWS",
+      "url": "https://youshows.org/",
+      "domain": "youshows.org",
+      "category": "movies-tv",
+      "categoryName": "Movies & TV Shows",
+      "categoryIcon": "🎬",
+      "subcategory": "All",
+      "tags": [
+        "Movies",
+        "TV Shows",
+        "Streaming"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "movies-tv-53",
+      "name": "WILLOW",
+      "url": "https://willow.arlen.icu/",
+      "domain": "willow.arlen.icu",
+      "category": "movies-tv",
+      "categoryName": "Movies & TV Shows",
+      "categoryIcon": "🎬",
+      "subcategory": "All",
+      "tags": [
+        "Movies",
+        "TV Shows",
+        "Streaming"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "movies-tv-54",
+      "name": "Vuflix",
+      "url": "https://vuflix.co/",
+      "domain": "vuflix.co",
+      "category": "movies-tv",
+      "categoryName": "Movies & TV Shows",
+      "categoryIcon": "🎬",
+      "subcategory": "All",
+      "tags": [
+        "Movies",
+        "TV Shows",
+        "Streaming"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "movies-tv-55",
+      "name": "7reels",
+      "url": "https://7reels.cc/",
+      "domain": "7reels.cc",
+      "category": "movies-tv",
+      "categoryName": "Movies & TV Shows",
+      "categoryIcon": "🎬",
+      "subcategory": "All",
+      "tags": [
+        "Movies",
+        "TV Shows",
+        "Streaming"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "movies-tv-56",
+      "name": "Anicine",
+      "url": "https://anicine.xyz/",
+      "domain": "anicine.xyz",
+      "category": "movies-tv",
+      "categoryName": "Movies & TV Shows",
+      "categoryIcon": "🎬",
+      "subcategory": "All",
+      "tags": [
+        "Movies",
+        "TV Shows",
+        "Streaming"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "movies-tv-57",
+      "name": "FlixHub Stream",
+      "url": "https://flixhub.aniflix.uno/",
+      "domain": "flixhub.aniflix.uno",
+      "category": "movies-tv",
+      "categoryName": "Movies & TV Shows",
+      "categoryIcon": "🎬",
+      "subcategory": "All",
+      "tags": [
+        "Movies",
+        "TV Shows",
+        "Streaming"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "movies-tv-58",
+      "name": "cinehd",
+      "url": "https://cinehd.vc/",
+      "domain": "cinehd.vc",
+      "category": "movies-tv",
+      "categoryName": "Movies & TV Shows",
+      "categoryIcon": "🎬",
+      "subcategory": "All",
+      "tags": [
+        "Movies",
+        "TV Shows",
+        "Streaming"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "movies-tv-59",
+      "name": "AllFlix",
+      "url": "https://allflix.org/",
+      "domain": "allflix.org",
+      "category": "movies-tv",
+      "categoryName": "Movies & TV Shows",
+      "categoryIcon": "🎬",
+      "subcategory": "All",
+      "tags": [
+        "Movies",
+        "TV Shows",
+        "Streaming"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "movies-tv-60",
+      "name": "Netshows",
+      "url": "https://netshows.xyz/",
+      "domain": "netshows.xyz",
+      "category": "movies-tv",
+      "categoryName": "Movies & TV Shows",
+      "categoryIcon": "🎬",
+      "subcategory": "All",
+      "tags": [
+        "Movies",
+        "TV Shows",
+        "Streaming"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "movies-tv-61",
+      "name": "Bingr One",
+      "url": "https://bingr.one/",
+      "domain": "bingr.one",
+      "category": "movies-tv",
+      "categoryName": "Movies & TV Shows",
+      "categoryIcon": "🎬",
+      "subcategory": "All",
+      "tags": [
+        "Movies",
+        "TV Shows",
+        "Streaming"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "movies-tv-62",
+      "name": "Toflix",
+      "url": "https://toflix.co/",
+      "domain": "toflix.co",
+      "category": "movies-tv",
+      "categoryName": "Movies & TV Shows",
+      "categoryIcon": "🎬",
+      "subcategory": "All",
+      "tags": [
+        "Movies",
+        "TV Shows",
+        "Streaming"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "movies-tv-63",
+      "name": "Chillflix",
+      "url": "https://chillflix.lol/",
+      "domain": "chillflix.lol",
+      "category": "movies-tv",
+      "categoryName": "Movies & TV Shows",
+      "categoryIcon": "🎬",
+      "subcategory": "All",
+      "tags": [
+        "Movies",
+        "TV Shows",
+        "Streaming"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "movies-tv-64",
+      "name": "Streamr",
+      "url": "https://streamr.dpdns.org/",
+      "domain": "streamr.dpdns.org",
+      "category": "movies-tv",
+      "categoryName": "Movies & TV Shows",
+      "categoryIcon": "🎬",
+      "subcategory": "All",
+      "tags": [
+        "Movies",
+        "TV Shows",
+        "Streaming"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "movies-tv-65",
+      "name": "cinex",
+      "url": "https://cinex.lol/",
+      "domain": "cinex.lol",
+      "category": "movies-tv",
+      "categoryName": "Movies & TV Shows",
+      "categoryIcon": "🎬",
+      "subcategory": "All",
+      "tags": [
+        "Movies",
+        "TV Shows",
+        "Streaming"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "anime-19",
+      "name": "ENMA",
+      "url": "https://enma.lol/",
+      "domain": "enma.lol",
+      "category": "anime",
+      "categoryName": "Anime",
+      "categoryIcon": "🍥",
+      "subcategory": "All",
+      "tags": [
+        "Anime",
+        "Subbed/Dubbed"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "anime-20",
+      "name": "FLIXANI",
+      "url": "https://flixani.studio/",
+      "domain": "flixani.studio",
+      "category": "anime",
+      "categoryName": "Anime",
+      "categoryIcon": "🍥",
+      "subcategory": "All",
+      "tags": [
+        "Anime",
+        "Subbed/Dubbed"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "anime-21",
+      "name": "ANY SHOWS",
+      "url": "https://anishows.org/",
+      "domain": "anishows.org",
+      "category": "anime",
+      "categoryName": "Anime",
+      "categoryIcon": "🍥",
+      "subcategory": "All",
+      "tags": [
+        "Anime",
+        "Subbed/Dubbed"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "anime-22",
+      "name": "ANIME TV",
+      "url": "https://animetvplus.xyz/",
+      "domain": "animetvplus.xyz",
+      "category": "anime",
+      "categoryName": "Anime",
+      "categoryIcon": "🍥",
+      "subcategory": "All",
+      "tags": [
+        "Anime",
+        "Subbed/Dubbed"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "anime-23",
+      "name": "KAA",
+      "url": "https://kaa.lt/",
+      "domain": "kaa.lt",
+      "category": "anime",
+      "categoryName": "Anime",
+      "categoryIcon": "🍥",
+      "subcategory": "All",
+      "tags": [
+        "Anime",
+        "Subbed/Dubbed"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "anime-24",
+      "name": "ANIME SALT",
+      "url": "https://animesalt.link/",
+      "domain": "animesalt.link",
+      "category": "anime",
+      "categoryName": "Anime",
+      "categoryIcon": "🍥",
+      "subcategory": "All",
+      "tags": [
+        "Anime",
+        "Subbed/Dubbed"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "anime-25",
+      "name": "SENPAI FLIX",
+      "url": "https://senpaiflix.fun/",
+      "domain": "senpaiflix.fun",
+      "category": "anime",
+      "categoryName": "Anime",
+      "categoryIcon": "🍥",
+      "subcategory": "All",
+      "tags": [
+        "Anime",
+        "Subbed/Dubbed"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "anime-26",
+      "name": "ANIMEXTRONS",
+      "url": "https://animextrons.co.in/",
+      "domain": "animextrons.co.in",
+      "category": "anime",
+      "categoryName": "Anime",
+      "categoryIcon": "🍥",
+      "subcategory": "All",
+      "tags": [
+        "Anime",
+        "Subbed/Dubbed"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "anime-27",
+      "name": "ANIKOTO TV",
+      "url": "https://anikototv.to/",
+      "domain": "anikototv.to",
+      "category": "anime",
+      "categoryName": "Anime",
+      "categoryIcon": "🍥",
+      "subcategory": "All",
+      "tags": [
+        "Anime",
+        "Subbed/Dubbed"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "anime-28",
+      "name": "WATCH ANIMEx",
+      "url": "https://watchanimez.me/",
+      "domain": "watchanimez.me",
+      "category": "anime",
+      "categoryName": "Anime",
+      "categoryIcon": "🍥",
+      "subcategory": "All",
+      "tags": [
+        "Anime",
+        "Subbed/Dubbed"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "anime-29",
+      "name": "Ani waves",
+      "url": "https://aniwaves.ru/",
+      "domain": "aniwaves.ru",
+      "category": "anime",
+      "categoryName": "Anime",
+      "categoryIcon": "🍥",
+      "subcategory": "All",
+      "tags": [
+        "Anime",
+        "Subbed/Dubbed"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "anime-30",
+      "name": "animerulz",
+      "url": "https://animerulz.co.in/",
+      "domain": "animerulz.co.in",
+      "category": "anime",
+      "categoryName": "Anime",
+      "categoryIcon": "🍥",
+      "subcategory": "All",
+      "tags": [
+        "Anime",
+        "Subbed/Dubbed"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "anime-31",
+      "name": "Anime Play",
+      "url": "https://dub.animeplay.icu/",
+      "domain": "dub.animeplay.icu",
+      "category": "anime",
+      "categoryName": "Anime",
+      "categoryIcon": "🍥",
+      "subcategory": "All",
+      "tags": [
+        "Anime",
+        "Subbed/Dubbed"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "anime-32",
+      "name": "OTANOX",
+      "url": "https://otanox.online/",
+      "domain": "otanox.online",
+      "category": "anime",
+      "categoryName": "Anime",
+      "categoryIcon": "🍥",
+      "subcategory": "All",
+      "tags": [
+        "Anime",
+        "Subbed/Dubbed"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "anime-33",
+      "name": "HiAnime",
+      "url": "https://hianime.at/",
+      "domain": "hianime.at",
+      "category": "anime",
+      "categoryName": "Anime",
+      "categoryIcon": "🍥",
+      "subcategory": "All",
+      "tags": [
+        "Anime",
+        "Subbed/Dubbed"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "anime-34",
+      "name": "Animetsu",
+      "url": "https://animetsu.site/",
+      "domain": "animetsu.site",
+      "category": "anime",
+      "categoryName": "Anime",
+      "categoryIcon": "🍥",
+      "subcategory": "All",
+      "tags": [
+        "Anime",
+        "Subbed/Dubbed"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "manga-11",
+      "name": "MANGABALL",
+      "url": "https://mangaball.net/",
+      "domain": "mangaball.net",
+      "category": "manga",
+      "categoryName": "Manga",
+      "categoryIcon": "📖",
+      "subcategory": "All",
+      "tags": [
+        "Manga",
+        "Reader"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "manga-12",
+      "name": "COMICK",
+      "url": "https://comick.dev/",
+      "domain": "comick.dev",
+      "category": "manga",
+      "categoryName": "Manga",
+      "categoryIcon": "📖",
+      "subcategory": "All",
+      "tags": [
+        "Manga",
+        "Reader"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "manga-13",
+      "name": "Q TOON",
+      "url": "https://qtoon.org/",
+      "domain": "qtoon.org",
+      "category": "manga",
+      "categoryName": "Manga",
+      "categoryIcon": "📖",
+      "subcategory": "All",
+      "tags": [
+        "Manga",
+        "Reader"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "manga-14",
+      "name": "KING OF SHOJO",
+      "url": "https://kingofshojo.com/",
+      "domain": "kingofshojo.com",
+      "category": "manga",
+      "categoryName": "Manga",
+      "categoryIcon": "📖",
+      "subcategory": "All",
+      "tags": [
+        "Manga",
+        "Reader"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "manga-15",
+      "name": "WEBTOON",
+      "url": "https://webtoons.com/",
+      "domain": "webtoons.com",
+      "category": "manga",
+      "categoryName": "Manga",
+      "categoryIcon": "📖",
+      "subcategory": "All",
+      "tags": [
+        "Manga",
+        "Reader"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "manga-16",
+      "name": "Manga reader",
+      "url": "https://anireads.cc/",
+      "domain": "anireads.cc",
+      "category": "manga",
+      "categoryName": "Manga",
+      "categoryIcon": "📖",
+      "subcategory": "All",
+      "tags": [
+        "Manga",
+        "Reader"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "live-tv-9",
+      "name": "CINEVID",
+      "url": "https://cinevid.st/",
+      "domain": "cinevid.st",
+      "category": "live-tv",
+      "categoryName": "Live TV",
+      "categoryIcon": "📺",
+      "subcategory": "All",
+      "tags": [
+        "IPTV",
+        "Channels"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "live-tv-10",
+      "name": "ONDEMAND",
+      "url": "https://ondemand.st/",
+      "domain": "ondemand.st",
+      "category": "live-tv",
+      "categoryName": "Live TV",
+      "categoryIcon": "📺",
+      "subcategory": "All",
+      "tags": [
+        "IPTV",
+        "Channels"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "live-tv-11",
+      "name": "STMIFY",
+      "url": "https://stmify.com/",
+      "domain": "stmify.com",
+      "category": "live-tv",
+      "categoryName": "Live TV",
+      "categoryIcon": "📺",
+      "subcategory": "All",
+      "tags": [
+        "IPTV",
+        "Channels"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "live-sports-20",
+      "name": "TheStreamEast",
+      "url": "https://thestreameast.top/",
+      "domain": "thestreameast.top",
+      "category": "live-sports",
+      "categoryName": "Live Sports",
+      "categoryIcon": "⚽",
+      "subcategory": "All",
+      "tags": [
+        "Sports",
+        "Live Stream"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "live-sports-21",
+      "name": "SPORTPLUS",
+      "url": "https://en97.sportplus.watch/",
+      "domain": "en97.sportplus.watch",
+      "category": "live-sports",
+      "categoryName": "Live Sports",
+      "categoryIcon": "⚽",
+      "subcategory": "All",
+      "tags": [
+        "Sports",
+        "Live Stream"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "live-sports-22",
+      "name": "StreamEast Now",
+      "url": "https://streameastnow.net/",
+      "domain": "streameastnow.net",
+      "category": "live-sports",
+      "categoryName": "Live Sports",
+      "categoryIcon": "⚽",
+      "subcategory": "All",
+      "tags": [
+        "Sports",
+        "Live Stream"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "live-sports-23",
+      "name": "fancode",
+      "url": "https://fancode.com/",
+      "domain": "fancode.com",
+      "category": "live-sports",
+      "categoryName": "Live Sports",
+      "categoryIcon": "⚽",
+      "subcategory": "All",
+      "tags": [
+        "Sports",
+        "Live Stream"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "asian-drama-9",
+      "name": "DRAMA PLANETS",
+      "url": "https://dramaplanets.online/",
+      "domain": "dramaplanets.online",
+      "category": "asian-drama",
+      "categoryName": "Asian Drama",
+      "categoryIcon": "🎭",
+      "subcategory": "All",
+      "tags": [
+        "Drama",
+        "K-Drama/C-Drama"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "asian-drama-10",
+      "name": "VIKI",
+      "url": "https://viki.com/",
+      "domain": "viki.com",
+      "category": "asian-drama",
+      "categoryName": "Asian Drama",
+      "categoryIcon": "🎭",
+      "subcategory": "All",
+      "tags": [
+        "Drama",
+        "K-Drama/C-Drama"
+      ],
+      "featured": false,
+      "popularity": 60
+    },
+    {
+      "id": "asian-drama-11",
+      "name": "K SHOW",
+      "url": "https://kshow123.tv/",
+      "domain": "kshow123.tv",
+      "category": "asian-drama",
+      "categoryName": "Asian Drama",
+      "categoryIcon": "🎭",
+      "subcategory": "All",
+      "tags": [
+        "Drama",
+        "K-Drama/C-Drama"
+      ],
+      "featured": false,
+      "popularity": 60
     }
   ]
 }
