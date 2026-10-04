@@ -31,7 +31,7 @@ export function CategoryNav({
 
   const tabClass = (active: boolean) =>
     cn(
-      "inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-sm font-semibold transition-all duration-200 hover:scale-[1.02] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black/30 active:scale-[0.98]",
+      "inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-sm font-semibold transition-all duration-200 hover:scale-[1.02] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black/30 active:scale-[0.98] lg:justify-start",
       active
         ? "border-black bg-black text-white shadow-sm"
         : "border-black/5 bg-black/[0.03] text-black/60 hover:bg-black/[0.06] hover:text-black",
@@ -39,7 +39,7 @@ export function CategoryNav({
 
   return (
     <nav aria-label="Directory categories" className="animate-enter-delay-2">
-      <div className="flex flex-wrap gap-2.5">
+      <div className="flex flex-wrap gap-2.5 lg:flex-col lg:flex-nowrap lg:items-stretch">
         <button
           type="button"
           onClick={() => onSelectCategory("all")}

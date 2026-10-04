@@ -157,18 +157,10 @@ export default function Home() {
 
       <main
         id="content-section"
-        className="mx-auto w-full max-w-3xl flex-1 scroll-mt-8 px-6 sm:px-12"
+        className="mx-auto w-full max-w-5xl flex-1 scroll-mt-8 px-6 sm:px-12"
       >
-        <CategoryNav
-          categories={visibleCategories}
-          activeCategory={activeCategory}
-          onSelectCategory={handleSelectCategory}
-          activeSubcategory={activeSubcategory}
-          onSelectSubcategory={setActiveSubcategory}
-          favoritesCount={favoritesCount}
-          totalSites={visibleTotalSites}
-        />
-
+        <div className="lg:flex lg:items-start lg:gap-10">
+          <div className="min-w-0 flex-1 lg:order-1">
         <SafetyBanner onSelectCategory={handleSelectCategory} />
 
         {isBrowsingAll && (
@@ -383,6 +375,23 @@ export default function Home() {
             </div>
           )}
         </section>
+          </div>
+
+          <aside className="mt-8 border-t border-black/5 pt-6 lg:order-2 lg:mt-0 lg:w-52 lg:shrink-0 lg:border-t-0 lg:pt-0 lg:sticky lg:top-6">
+            <p className="mb-3 text-xs font-semibold uppercase tracking-wider text-black/35">
+              Categories
+            </p>
+            <CategoryNav
+              categories={visibleCategories}
+              activeCategory={activeCategory}
+              onSelectCategory={handleSelectCategory}
+              activeSubcategory={activeSubcategory}
+              onSelectSubcategory={setActiveSubcategory}
+              favoritesCount={favoritesCount}
+              totalSites={visibleTotalSites}
+            />
+          </aside>
+        </div>
       </main>
 
       <RandomPickerModal
