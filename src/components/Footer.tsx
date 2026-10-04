@@ -38,9 +38,20 @@ export function Footer() {
         <div className="flex flex-col gap-7 sm:flex-row sm:items-start sm:justify-between">
           <div>
             <div className="flex items-center gap-2">
-              <span className="flex h-7 w-7 items-center justify-center rounded-full bg-black text-xs text-white">
-                ✳
-              </span>
+              <span
+                aria-hidden="true"
+                className="block h-7 w-7 rounded-full"
+                style={{
+                  background:
+                    "radial-gradient(circle at 32% 30%, #7dd3fc 0%, #3b82f6 45%, #a78bfa 80%, #8b5cf6 100%)",
+                  WebkitMaskImage:
+                    "radial-gradient(circle, black 1.2px, transparent 1.3px)",
+                  maskImage:
+                    "radial-gradient(circle, black 1.2px, transparent 1.3px)",
+                  WebkitMaskSize: "4px 4px",
+                  maskSize: "4px 4px",
+                }}
+              />
               <span className="text-sm font-bold tracking-tight">SCROLLHUB</span>
             </div>
             <p className="mt-4 max-w-md text-xs leading-5 text-black/45">

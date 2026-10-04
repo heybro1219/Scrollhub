@@ -61,30 +61,39 @@ export function Hero({
           className="mb-8 block text-black focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-black/30 sm:mb-12"
           aria-label="Back to top"
         >
-          <svg
+          <span
             aria-hidden="true"
-            width="40"
-            height="40"
-            viewBox="0 0 24 24"
-            fill="none"
-            className="transition-transform duration-700 ease-out hover:rotate-90"
-          >
-            <path
-              d="M12 2V22M2 12H22M4.92893 4.92893L19.0711 19.0711M4.92893 19.0711L19.0711 4.92893"
-              stroke="currentColor"
-              strokeWidth="2.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
+            className="block h-10 w-10 rounded-full"
+            style={{
+              background:
+                "radial-gradient(circle at 32% 30%, #7dd3fc 0%, #3b82f6 45%, #a78bfa 80%, #8b5cf6 100%)",
+              WebkitMaskImage:
+                "radial-gradient(circle, black 1.6px, transparent 1.7px)",
+              maskImage:
+                "radial-gradient(circle, black 1.6px, transparent 1.7px)",
+              WebkitMaskSize: "5px 5px",
+              maskSize: "5px 5px",
+            }}
+          />
         </button>
 
         <header className="max-w-2xl animate-enter">
           <div className="animate-enter-delay-1 mb-10 flex items-center gap-3">
             <div className="flex items-center gap-2 rounded-full border border-black/5 bg-black/[0.03] px-2.5 py-1.5 transition-colors hover:bg-black/[0.05]">
-              <span className="flex h-6 w-6 items-center justify-center rounded-full bg-black text-sm text-white">
-                ✳
-              </span>
+              <span
+                aria-hidden="true"
+                className="block h-6 w-6 shrink-0 rounded-full"
+                style={{
+                  background:
+                    "radial-gradient(circle at 32% 30%, #7dd3fc 0%, #3b82f6 45%, #a78bfa 80%, #8b5cf6 100%)",
+                  WebkitMaskImage:
+                    "radial-gradient(circle, black 1.1px, transparent 1.2px)",
+                  maskImage:
+                    "radial-gradient(circle, black 1.1px, transparent 1.2px)",
+                  WebkitMaskSize: "4px 4px",
+                  maskSize: "4px 4px",
+                }}
+              />
               <span className="text-xs font-bold text-black/80">ScrollHub</span>
               <span className="text-xs text-black/30">
                 {totalSites} sites · {totalCategories} categories
